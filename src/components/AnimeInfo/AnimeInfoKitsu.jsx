@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import LoadingSpinner from "../LoadingSpinner";
 import "./AnimeInfo.css";
 import { easeOut, motion } from "framer-motion";
-import { FaEye, FaHeart, FaMedal, FaPlayCircle, FaPlus } from "react-icons/fa";
+import {
+  FaEye,
+  FaHeart,
+  FaMedal,
+  FaPlayCircle,
+  FaPlus,
+  FaInstagram, // Added Instagram icon
+} from "react-icons/fa";
 import Share from "../Share/Share";
 import { getAnimeById } from "../../api/kitsu";
 import { Link, useParams } from "react-router-dom";
@@ -12,6 +19,12 @@ export default function Details() {
   const params = useParams();
   const { data, isLoading } = getAnimeById(params.id);
   const [descIsCollapsed, setDescIsCollapsed] = useState(true);
+  
+  const openInstagram = () => {
+    // Open Instagram page in a new tab/window
+    window.open("https://www.instagram.com/vibes.him", "_blank");
+  };
+
   return (
     <motion.div
       className="details-container"
@@ -81,9 +94,23 @@ export default function Details() {
                   >
                     <FaPlayCircle size={12} /> Watch Now
                   </Link>
-                  <button className="btn-secondary  hero-button">
-                    Add to List <FaPlus size={12} />
-                  </button>
+                  <button
+                className="btn-secondary hero-button"
+                onClick={openInstagram} // Added Instagram functionality
+                onMouseEnter={() => {
+                  // Show overlay box logic here on hover
+                  // For example, display a tooltip or overlay
+                  // This could involve manipulating the DOM or using CSS classes for visibility
+                  // Add tooltip or overlay functionality here
+                }}
+                onMouseLeave={() => {
+                  // Hide overlay box logic here when hover ends
+                }}
+              >
+                <FaInstagram size={20} />
+                <span className="Follow @vibes.him"></span> {/* Example for tooltip */}
+                {/* The above line is an example. You'd need to implement tooltip/overlay functionality */}
+              </button>
                 </div>
                 <p>
                   {descIsCollapsed

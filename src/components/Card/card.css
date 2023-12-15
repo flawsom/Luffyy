@@ -12,7 +12,7 @@
   min-width: 100%;
 }
 .card-details {
-  background: var(--grey-dark);
+  background: #3d3d3d;
   padding-inline: 10px;
   padding-bottom: 10px;
 }
@@ -68,7 +68,7 @@
   background-color: #b0e3af;
 }
 .card-title {
-  color: white;
+  color: #c6c6c6;
   display: block;
   margin-bottom: 5px;
   white-space: wrap;

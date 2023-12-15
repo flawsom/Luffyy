@@ -1,8 +1,8 @@
 {
-  "name": "Kaido",
-  "short_name": "Kaido",
+  "name": "luffy",
+  "short_name": "luffy",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#242428",
-  "theme_color": "#2196F3"
+  "background_color": "#161618",
+  "theme_color": "#FF8F8E"
 }

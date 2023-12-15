@@ -6,7 +6,7 @@
 .genre-list {
   flex-wrap: wrap;
   padding: 10px;
-  background: var(--grey-dark);
+  background: var(--dark);;
   column-gap: 15px;
 }
 .genre-list button {
@@ -30,7 +30,7 @@
   padding: 10px;
   width: calc(100% / 3 - 15px);
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -25,13 +25,13 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 :root {
-  --grey-dark: #343a40;
-  --dark: #242428;
+  --grey-dark: #FFC1FF;
+  --dark: #161618;
   --height-small: 400px;
   --height-medium: 500px;
   --height-large: 610px;
-  --light: #ffffff;
-  --theme: rgb(83, 255, 134);
+  --light: #00fee5;
+  --theme: rgb(255, 0, 76);
   --random-colors: #ff5733, #33ff57, #5733ff, #ff33a8, #33a8ff, #a833ff, #ff33ff,
     #33ffc2, #a8ff33, #ffc233;
 }
@@ -58,7 +58,7 @@ body {
   max-width: 1980px;
   padding: 0 !important;
   margin: 0 auto;
-  color: var(--light);
+  color: #00edfe;
   position: relative;
   overflow-x: hidden;
 }

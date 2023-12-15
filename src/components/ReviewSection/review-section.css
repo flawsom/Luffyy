@@ -1,15 +1,15 @@
 .review-section-wrapper {
   padding: 20px;
   padding-bottom: 0;
-  background: var(--grey-dark);
+  background: #ffb700;
 }
 .review-card {
   padding: 15px;
   border-radius: 20px;
   background: linear-gradient(
     180deg,
-    rgba(142, 142, 142, 0.1),
-    rgba(251, 251, 251, 0)
+    #bf9723,
+    #ffaa00a3
   );
   font-size: 14px;
 }

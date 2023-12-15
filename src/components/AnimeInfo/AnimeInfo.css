@@ -64,7 +64,7 @@
   border-radius: 3px 0px 0 3px;
 }
 .anime-statistics-tile:nth-of-type(5n - 3) {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .anime-statistics-tile:nth-of-type(5n - 2) {
   background-color: #ffdd95;
@@ -95,7 +95,7 @@
 }
 .details-header a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 33, 250);
 }
 .details-header a:hover {
   color: var(--theme);

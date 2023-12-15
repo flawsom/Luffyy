@@ -132,7 +132,7 @@ export default function Details() {
                     <FaPlayCircle size={12} /> Watch Now
                   </Link>
                   <button className="btn-secondary  hero-button">
-                    Add to List <FaPlus size={12} />
+                    Add to list <FaPlus size={12} />
                   </button>
                 </div>
                 <p>
