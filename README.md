@@ -1,8 +1,8 @@
-# luffy - Anime Streaming Website
+# Luffy - Anime Streaming Website
 ![image](https://github.com/flawsom/luffy/assets/108014780/fb96dfe3-0a3a-4b95-9633-bd20509e7b84)
 
 
-Welcome to luffy, your one-stop destination for streaming your favorite anime series and movies! This website is built using React and leverages several libraries and APIs to provide a seamless anime streaming experience.
+Welcome to Luffy, your one-stop destination for streaming your favorite anime series and movies! This website is built using React and leverages several libraries and APIs to provide a seamless anime streaming experience.
 
 
 
@@ -14,7 +14,7 @@ Welcome to luffy, your one-stop destination for streaming your favorite anime se
 
 - **Streaming**: Stream anime episodes and movies directly from the website.
 
-- **User-friendly**: luffy is designed with a user-friendly interface to enhance your viewing experience.
+- **User-friendly**: Luffy is designed with a user-friendly interface to enhance your viewing experience.
 
 ## Technologies Used
 
@@ -34,16 +34,16 @@ Welcome to luffy, your one-stop destination for streaming your favorite anime se
 
 ## Getting Started
 
-If you want to set up luffy locally on your machine, follow these steps:
+If you want to set up Luffy locally on your machine, follow these steps:
 
 1. Clone the repository:
 
    ```shell
    git clone https://github.com/flawsom/luffy.git
-   cd luffy
+   cd Luffy
    npm install
    npm run dev
-After that you can access luffy locally by visiting the URL displayed in the shell window
+After that you can access Luffy locally by visiting the URL displayed in the shell window
 ## Contributing
-We welcome contributions to improve and enhance luffy. If you have any bug reports, feature requests, or code contributions, please feel free to open an issue or submit a pull request.
+We welcome contributions to improve and enhance Luffy. If you have any bug reports, feature requests, or code contributions, please feel free to open an issue or submit a pull request.
 

@@ -30,7 +30,7 @@ export default function Share(props) {
     >
       <img src={share} alt="share" />
       <div>
-        <p className="primary">Share luffy</p>
+        <p className="primary">Share Luffy</p>
         <p>to your friends</p>
       </div>
     </div>

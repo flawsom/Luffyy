@@ -56,7 +56,7 @@
   width: calc(100% / 4 - 5px);
   display: inline-block;
   padding: 5px;
-  background-color: var(--grey-dark);
+  background-color: #242428cc;
   cursor: pointer;
   border-radius: 4px;
   overflow: hidden;
@@ -73,7 +73,7 @@
   display: inline-block;
   padding: 5px 15px;
   font-size: 13px;
-  background-color: var(--grey-dark);
+  background-color: #343a40;
   cursor: pointer;
   border-radius: 20px;
   margin: 0px 10px 10px 0px;

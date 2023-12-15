@@ -46,10 +46,12 @@ export default function Footer() {
       <div className="alphabet-list d-flex">{links}</div>
       <div className="copyright-text">
         <p>
-          luffy does not store any files on our server; we only link to the
-          media which is hosted on 3rd party services.
+          Luffy does not store any files on our server.
         </p>
-        <p>&copy; luffy All rights reserved.</p>
+        <p> 
+          We only link to the media which is hosted on 3rd party services.
+        </p>
+        <p>&copy; Luffy All rights reserved.</p>
       </div>
     </div>
   );
