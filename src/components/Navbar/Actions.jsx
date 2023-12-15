@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRandom, FaComments, FaBroadcastTower } from "react-icons/fa";
+import { FaRandom, FaComments, FaBroadcastTower, FaInstagram, FaPersonBooth, FaBook, FaBookOpen } from "react-icons/fa";
 import { Link } from "react-router-dom";
 export default function Actions({ isInSidebar }) {
   return (
@@ -18,16 +18,16 @@ export default function Actions({ isInSidebar }) {
     >
       <span>
         <a
-          href="https://aniwatch.to/watch2gether"
+          href="https://instagram.com/vibes.him"
           target="_blank"
           rel="noreferrer"
         >
-          <FaBroadcastTower size={20} />
-          <p>Watch Togather</p>
+          <FaInstagram size={20} />
+          <p>Creator's Instagram</p>
         </a>
       </span>
       <span>
-        <Link to="/details/random" href="https://twitter.com/AniWatchGo">
+        <Link to="/details/random" href="https://twitter.com/vibeswithsiba">
           <FaRandom size={20} />
           <p>Random</p>
         </Link>
@@ -35,12 +35,12 @@ export default function Actions({ isInSidebar }) {
       {!isInSidebar && (
         <span>
           <a
-            href="https://aniwatch.to/community/board"
+            href="https://zorooo.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
-            <FaComments size={20} />
-            <p>Community</p>
+            <FaBookOpen size={20} />
+            <p>Manga</p>
           </a>
         </span>
       )}

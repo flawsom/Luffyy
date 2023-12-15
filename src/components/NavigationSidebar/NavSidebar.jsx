@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChevronLeft, FaComments } from "react-icons/fa";
+import { FaChevronLeft, FaComments, FaVideo } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./nav-sidebar.css";
 import Actions from "../Navbar/Actions";
@@ -31,9 +31,9 @@ export default function NavSidebar(props) {
             Close Menu
           </div>
           <Actions isInSidebar={true} />
-          <a href="/" className="d-flex a-center j-center">
-            <FaComments size={14} />
-            Community
+          <a href="https://bankaiii.vercel.app" className="d-flex a-center j-center">
+            <FaVideo size={15} />
+            Movies & Series
           </a>
         </div>
 

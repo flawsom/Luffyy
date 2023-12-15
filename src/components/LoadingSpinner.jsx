@@ -1,14 +1,13 @@
 import React from "react";
-
-import { CgSpinnerTwoAlt } from "react-icons/cg";
+import "./LoadingSpinner.css"; // Import your CSS file for spinner styling
 
 export default function LoadingSpinner() {
   return (
     <div className="loading-container">
-      <CgSpinnerTwoAlt size={30} className="spinner" color="white" />
-      <h4 style={{ color: "white", fontFamily: "Poppins" }}>
-        Hang in there...
-      </h4>
+      {/* An animated character or gif can be placed here */}
+      <div className="anime-character"></div>
+      {/* Example: You can use an animated GIF or any other animation for the character */}
+      <h4 className="loading-text">Hang in there...</h4>
     </div>
   );
 }
