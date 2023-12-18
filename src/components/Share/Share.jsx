@@ -10,7 +10,7 @@ export default function Share(props) {
         await navigator.share({
           title: document.title,
           text: 'Check out this link!',
-          url: 'https://aniluffyy.vercel.app',
+          url: window.location.href,
         });
       } else {
         // Fallback for browsers that don't support Web Share API
