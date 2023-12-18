@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { lazy } from "react";
 import Nav from "./Layouts/Nav";
+import PreventDownloadWrapper from './PreventDownloadWrapper';
 const Home = lazy(() => import("./pages/Home"));
 const Genre = lazy(() => import("./pages/Genre"));
 
@@ -24,6 +25,7 @@ const AnimeInfoKitsu = lazy(() =>
 export default function App() {
   return (
     <BrowserRouter>
+    <PreventDownloadWrapper>
       <Routes>
         <Route path="/" element={<Nav />}>
           <Route index element={<Home />} />
@@ -41,6 +43,7 @@ export default function App() {
           <Route path="watch" element={<WatchAnime />} />
         </Route>
       </Routes>
+      </PreventDownloadWrapper>
     </BrowserRouter>
   );
 }
